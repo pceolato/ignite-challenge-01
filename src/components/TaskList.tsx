@@ -25,7 +25,7 @@ export function TaskList() {
     }
 
     if(task.title) {
-      setTasks((prevState: any) => [...prevState, task])
+      setTasks(prevState => [...prevState, task])
       }
       console.log(task)
     }
